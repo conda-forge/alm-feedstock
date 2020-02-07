@@ -38,6 +38,7 @@ test:
     - test/*.py
   requires:
     - numpy
+    - liblapack
   imports:
     - alm
   commands:

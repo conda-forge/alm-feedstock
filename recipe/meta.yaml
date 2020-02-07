@@ -36,8 +36,6 @@ test:
   source_files:
     - test/*.dat
     - test/*.py
-  requires:
-    - numpy
   imports:
     - alm
   commands:

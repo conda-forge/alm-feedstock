@@ -12,7 +12,7 @@ source:
     - use_external_spglib.patch
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win or py<35]
 
 requirements:
@@ -36,8 +36,6 @@ test:
   source_files:
     - test/*.dat
     - test/*.py
-  requires:
-    - numpy
   imports:
     - alm
   commands:

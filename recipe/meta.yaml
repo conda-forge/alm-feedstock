@@ -26,7 +26,7 @@ requirements:
     - numpy
     - boost
     - eigen
-    - spglib >=1.16
+    - spglib >=1.12
     - setuptools
   run:
     - python    

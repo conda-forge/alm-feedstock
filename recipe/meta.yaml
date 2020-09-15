@@ -12,7 +12,7 @@ source:
     - use_external_spglib.patch
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win or py<35]
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - numpy
     - boost
     - eigen
-    - spglib >=1.11.2.1
+    - spglib >=1.12
     - setuptools
   run:
     - python    

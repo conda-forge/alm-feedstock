@@ -9,6 +9,7 @@ export LDFLAGS=" -llapack ${LDFLAGS} "
 
 echo $OSX_ARCH
 if [ ${OSX_ARCH}. == . ]; then
+    # We are not in OSX ergo linux (win build is blocked in meta.yaml)
     export LDFLAGS+=" -fopenmp "
 else 
     export LDFLAGS+=" -fopenmp=libomp "

@@ -1,5 +1,5 @@
 {% set name = "ALM" %}
-{% set version = "2.0.0_dev.1" %}
+{% set version = "2.0.0_dev.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jochym/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 02aea008925df240d38cc23e08a14694a80186f4d7475464e337200132888ac4
+  sha256: 407084e9bea3c3662455a61775f0712b636b53b6fe75cc0aa2d87e698f8f4f55
   patches:
     - use_external_spglib.patch
 

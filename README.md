@@ -5,9 +5,13 @@ Home: https://github.com/ttadano/ALM
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alm-feedstock/blob/master/LICENSE.txt)
 
 Summary: Software for calculating harmonic and anharmonic interatomic force constants in solids and molecules.
+
+Development: https://github.com/ttadano/ALM
+
+Documentation: http://alm.readthedocs.io/
 
 ALM can be used for Extraction of harmonic and anharmonic force constants
 based on the supercell approach. It is applicable to any crystal structure
@@ -33,87 +37,115 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_boost1.72.0python3.6.____cpython</td>
+              <td>linux_64_boost1.72.0numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_boost1.72.0python3.7.____cpython</td>
+              <td>linux_64_boost1.72.0numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_boost1.72.0python3.8.____cpython</td>
+              <td>linux_64_boost1.72.0numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0numpy1.16python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_boost1.74.0python3.6.____cpython</td>
+              <td>linux_64_boost1.72.0numpy1.19python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0numpy1.19python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_boost1.74.0python3.7.____cpython</td>
+              <td>linux_64_boost1.74.0numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_boost1.74.0python3.8.____cpython</td>
+              <td>linux_64_boost1.74.0numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_boost1.72.0python3.6.____cpython</td>
+              <td>linux_64_boost1.74.0numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0numpy1.16python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_boost1.72.0python3.7.____cpython</td>
+              <td>linux_64_boost1.74.0numpy1.19python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0numpy1.19python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_boost1.72.0python3.8.____cpython</td>
+              <td>osx_64_boost1.72.0numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_boost1.74.0python3.6.____cpython</td>
+              <td>osx_64_boost1.72.0numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_boost1.74.0python3.7.____cpython</td>
+              <td>osx_64_boost1.72.0numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0numpy1.16python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_boost1.74.0python3.8.____cpython</td>
+              <td>osx_64_boost1.72.0numpy1.19python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0numpy1.19python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_boost1.74.0numpy1.16python3.6.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0numpy1.16python3.6.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_boost1.74.0numpy1.16python3.7.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0numpy1.16python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_boost1.74.0numpy1.16python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0numpy1.16python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_boost1.74.0numpy1.19python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9023&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alm-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0numpy1.19python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>

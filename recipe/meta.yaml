@@ -12,12 +12,13 @@ source:
     - use_external_spglib.patch
 
 build:
-  number: 8
+  number: 9
   skip: true  # [win or py<35]
 
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - llvm-openmp  # [osx]
     - libgomp      # [linux and not aarch64]
   host:

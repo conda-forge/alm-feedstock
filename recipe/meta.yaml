@@ -12,7 +12,7 @@ source:
     - use_external_spglib.patch
 
 build:
-  number: 9
+  number: 10
   skip: true  # [win or py<35]
 
 requirements:
@@ -31,7 +31,6 @@ requirements:
     - setuptools
   run:
     - python
-    - {{ pin_compatible('numpy') }}
 
 test:
   source_files:

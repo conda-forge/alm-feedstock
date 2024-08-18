@@ -12,7 +12,7 @@ source:
     - use_external_spglib.patch
 
 build:
-  number: 10
+  number: 11
   skip: true  # [win or py<35]
 
 requirements:

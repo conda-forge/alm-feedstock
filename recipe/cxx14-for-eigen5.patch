@@ -1,8 +1,12 @@
-# recipe/cxx14-for-eigen5.patch
-
 diff --git a/python/setup.py b/python/setup.py
+index 05f574f..c9fce39 100644
 --- a/python/setup.py
 +++ b/python/setup.py
-@@
--    extra_compile_args=['-fopenmp', '-std=c++11'],
-+    extra_compile_args=['-fopenmp', '-std=c++14'],
+@@ -98,7 +98,7 @@ extension = Extension('alm._alm',
+                       include_dirs=include_dirs,
+                       library_dirs=library_dirs,
+                       #extra_compile_args=['-fopenmp', '-fPIC', '-v', '-std=c++11'],
+-                      extra_compile_args=['-fopenmp', '-std=c++11'],
++                      extra_compile_args=['-fopenmp', '-std=c++14'],
+                       extra_link_args=extra_link_args,
+                       sources=sources)

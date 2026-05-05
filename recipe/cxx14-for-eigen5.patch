@@ -1,0 +1,8 @@
+# recipe/cxx14-for-eigen5.patch
+
+diff --git a/python/setup.py b/python/setup.py
+--- a/python/setup.py
++++ b/python/setup.py
+@@
+-    extra_compile_args=['-fopenmp', '-std=c++11'],
++    extra_compile_args=['-fopenmp', '-std=c++14'],

@@ -1,8 +1,8 @@
 diff --git a/python/setup.py b/python/setup.py
-index 98457ae..ed9bf87 100644
+index 41f4f1d..f677a01 100644
 --- a/python/setup.py
 +++ b/python/setup.py
-@@ -75,7 +75,7 @@ if compile_with_sources:
+@@ -85,7 +85,7 @@ if compile_with_sources:
      include_dirs += [source_dir, ]
      sources = [os.path.join(source_dir, s) for s in cpp_files]
      sources += ['_alm.c', 'alm_wrapper.cpp']
@@ -10,4 +10,13 @@ index 98457ae..ed9bf87 100644
 +    extra_link_args.append("-lsymspg")
  else:  # compile with library
      sources = ['_alm.c', 'alm_wrapper.cpp']
-     # static link library
+     # 'libalmcxx.a' static link library has to come before depending
+@@ -96,7 +96,7 @@ else:  # compile with library
+ extension = Extension('alm._alm',
+                       include_dirs=include_dirs,
+                       library_dirs=library_dirs,
+-                      extra_compile_args=['-fopenmp', '-std=c++11'],
++                      extra_compile_args=['-fopenmp', '-std=c++14'],
+                       extra_link_args=extra_link_args,
+                       sources=sources)
+ 

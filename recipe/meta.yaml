@@ -10,7 +10,6 @@ source:
   sha256: 407084e9bea3c3662455a61775f0712b636b53b6fe75cc0aa2d87e698f8f4f55
   patches:
     - use_external_spglib.patch
-    - cxx14-for-eigen5.patch
 
 build:
   number: 14
